@@ -1,0 +1,88 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+.fincur-banks {
+	/* display: inline-block; */
+	/* max-width: 1240px; */
+	/* padding: 10px; */
+	margin: 20px 10px;
+	/* border: 1px solid rgba(150,150,150,.5); */
+	border-radius: 5px;
+}
+.fincur-banks__head {
+	color: #555;
+	margin-bottom: 5px;
+}
+.fincur-banks__bank {
+	display: inline-block;
+	width: 200px;
+	padding: 10px;
+	margin: 5px 0px 10px;
+	/* border: 1px solid rgba(150,150,150,.5); */
+	box-shadow: 1px 1px 2px rgba(150,150,150,.5), 0 0 5px rgba(150,150,150,.5);
+	border-radius: 3px;
+}
+
+.fincur-convert {
+	margin: 20px 10px;
+}
+.fincur-convert__head {
+	color: #555;
+	margin-bottom: 5px;
+}
+.fincur-convert__group {
+	/* display: inline-block; */
+	/* max-width: 1240px; */
+	/* padding: 10px; */
+	margin: 20px auto;
+	border: 1px solid rgba(150,150,150,.5);
+	border-radius: 5px;
+}
+.fincur-convert__item {
+	display: inline-block;
+	width: 150px;
+	padding: 10px;
+	margin: 0px 5px 20px;
+	border: 1px solid rgba(150,150,150,.5);
+	box-shadow: 2px 2px 1px rgba(150,150,150,.5);
+	border-radius: 3px;
+}
